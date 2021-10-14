@@ -89,7 +89,6 @@ class UI {
         todos.forEach((todo, index) => {
             const selectItem = this.selectElements[index];
             selectItem.selectedIndex = todo.status
-            console.log(todo.status,selectItem.selectedIndex);
           });
     }
 
